@@ -7,7 +7,7 @@ function Navbar() {
     <div>
         <nav className="navbar navbar-expand-lg bg-light">
   <div className="container">
-    <a className="navbar-brand fw-bold fs-4" href="#">Acciojob</a>
+    <span className="navbar-brand fw-bold fs-4">Acciojob</span>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -17,19 +17,19 @@ function Navbar() {
         <Link to='/' className='btn'>Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Shop</a>
+        <Link to='/Shop' className='btn'>Shop</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
+        <Link to='/About' className='btn'>About</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Blog</a>
+        <Link to='/Blog' className='btn'>Blog</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
+        <Link to='/Contact' className='btn'>Contact</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link">Pages</a>
+        <Link to='/Pages' className='btn'>Pages</Link>
         </li>
       </ul>
       <div>

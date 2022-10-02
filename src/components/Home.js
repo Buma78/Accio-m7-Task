@@ -2,6 +2,7 @@ import React from 'react'
 import '../components/Home.css';
 import hero from '../images/hero-cover-1.png';
 import Products from './Products.js';
+import Footers from './Footers.js';
 function Home() {
   return (
    <div>
@@ -18,11 +19,12 @@ function Home() {
                 </div>
             </div>
             <div className='col-md-6'>
-                <img src={hero} />
+                <img src={hero} alt="girl"/>
             </div>
       </div>
     </div>
      <Products/>
+     <Footers/>
   </div>
   )
 }

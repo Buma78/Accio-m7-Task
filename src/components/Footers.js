@@ -1,6 +1,5 @@
 import React from 'react';
 import Saveresponses from './Saveresponses.js';
-import { Link } from 'react-router-dom';
 import './Footers.css';
 function Footers() {
   return (

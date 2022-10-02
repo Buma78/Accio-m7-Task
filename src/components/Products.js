@@ -41,7 +41,7 @@ function Products() {
         
                 data.map(product => {
                     return (
-                        <div className='card-container'>
+                        <div className='card-container'key={product.productId}>
                             <div className='card'>
                                 <img src={product.productImage} className='prod-pic' alt='Product-pic' />
                                 <div className='card-body'>

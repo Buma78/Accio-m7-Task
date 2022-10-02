@@ -1,0 +1,1 @@
+export const Increment = (num) => {return {type: 'Increment',}}

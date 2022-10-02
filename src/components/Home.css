@@ -1,0 +1,23 @@
+.home-container{
+    margin: 40px;
+width: 1292px;
+height: 622px;
+left: calc(50% - 1292px/2 - 15px);
+top: 92px;
+
+background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
+border-radius: 20px;
+}
+.home-container.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show{
+    margin-left: 150px;
+    margin-top: 250px;
+    width: 548px;
+height: 316px;
+    min-width: 300px;
+    text-align: initial;
+}
